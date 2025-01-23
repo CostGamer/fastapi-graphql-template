@@ -22,8 +22,7 @@ graphql_app/
 │   │       └── __init__.py
 │   │
 │   ├── models/                      # SQLModel data models
-│   │   ├── pet.py                   # Pet model (e.g., id, name, breed, age)
-│   │   └── owner.py                 # Owner model (e.g., id, name, contact info)
+│   │   └── models.py                   # Pet model (e.g., id, name, breed, age)
 │   │
 │   ├── repositories/                # Data access logic
 │   │   ├── pet_repository.py        # Queries and updates for pets
